@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <menuitem id="gene_root" name="基因工程" sequence="1"/>
+        <menuitem id="gene_categ" name="基因匯入" parent="gene_root" sequence=""/>
+         <menuitem id="subject_base_menu"
+                  name="受測者資料"
+                  parent="gene_categ"
+                  action="subject_base_action"
+                  sequence="1"/>
+        <menuitem id="gene_menu"
+                  name="查看excel檔"
+                  parent="gene_categ"
+                  action="gene_base_view_action"
+                  sequence="10"/>
+        <menuitem id="gene_main_menu"
+                  name="基因匯入主檔"
+                  parent="gene_categ"
+                  action="gene_main_view_action"
+                  sequence="11"/>
+    </data>
+</odoo>
