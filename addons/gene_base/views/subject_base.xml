@@ -32,8 +32,8 @@
         </record>
 
 
-        <record id="" model="ir.ui.view">
-            <field name="name"></field>
+        <record id="subject_base_search" model="ir.ui.view">
+            <field name="name">subject base search</field>
             <field name="model">subject.base</field>
             <field name="arch" type="xml">
                 <search>
@@ -43,7 +43,7 @@
         </record>
 
         <record id="subject_base_action" model="ir.actions.act_window">
-            <field name="name"></field>
+            <field name="name">subject base action</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">subject.base</field>
             <field name="view_mode">tree,form</field>
