@@ -43,7 +43,7 @@
         </record>
 
         <record id="subject_base_action" model="ir.actions.act_window">
-            <field name="name">subject base action</field>
+            <field name="name">受測者資料</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">subject.base</field>
             <field name="view_mode">tree,form</field>

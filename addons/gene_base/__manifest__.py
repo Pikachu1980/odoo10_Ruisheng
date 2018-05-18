@@ -17,8 +17,10 @@
         'views/subject_base.xml',
         'views/gene_base.xml',
         'views/gene_main.xml',
+        'views/sample_base.xml',
+        'views/sequence_variation_table.xml',
+        'views/gene_impact.xml',
         'views/menu.xml',
-
     ],
     'demo': [],
 }
