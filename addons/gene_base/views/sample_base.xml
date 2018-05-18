@@ -7,8 +7,9 @@
             <field name="arch" type="xml">
                 <tree>
                     <field name="sample_id"/>
-                    <field name="datelanded"/>
                     <field name="sample_num"/>
+                    <field name="sample_type"/>
+                    <field name="datelanded"/>
                 </tree>
             </field>
         </record>
@@ -37,6 +38,32 @@
                             <page string="基因功能影響評估">
                                 <field name="gene_impact_code">
                                 </field>
+                            </page>
+                            <page string="藥物使用影響評估">
+                                <field name="medicine_impact_code">
+                                </field>
+                            </page>
+                             <page string="定序實驗結果說明">
+                                 <span STYLE='FONT-SIZE:25PX'>檢測結果摘要</span>
+                                 <group>
+                                    <field name="sequence_variation_text"/>
+                                    <field name="medicine_impact_text"/>
+                                    <field name="disease_prognosis_text"/>
+                                 </group>
+                                <group>
+                                    <field name="dna_source"/>
+                                    <field name="dna_method"/>
+                                    <field name="Continu_sequel_preparation"/>
+                                    <field name="sequence_platform"/>
+                                    <field name="sequence_mode"/>
+                                    <field name="preliminary_num"/>
+                                    <field name="comparison_database"/>
+                                    <field name="human_num"/>
+                                    <field name="human_percent"/>
+                                    <field name="target_num"/>
+                                    <field name="target_percent"/>
+                                    <field name="ten_percent_cover"/>
+                                </group>
                             </page>
                         </notebook>
                     </sheet>

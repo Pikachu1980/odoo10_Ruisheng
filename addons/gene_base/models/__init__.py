@@ -5,3 +5,5 @@ from . import subject_base
 from . import sample_base
 from . import  sequence_variation_table
 from . import gene_impact
+from . import medicine_data
+from . import medicine_impact
