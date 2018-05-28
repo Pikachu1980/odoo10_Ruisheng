@@ -25,8 +25,9 @@ class GeneReportDocx(GeneReportWord):
             document.merge(
                 name=line.name,
                 gene_ids=line.person_id.name,
-                test_field=line.test_field
+                test_field=line.test_field,
             )
+
 
 
 

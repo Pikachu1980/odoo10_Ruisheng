@@ -9,4 +9,4 @@ class SubjectBase(models.Model):
     name = fields.Char('姓名')
     sex = fields.Selection([(1,'男'),(2,'女')])
     age = fields.Integer('年齡')
-    case_description =  fields.Text('病例簡述')
+    case_description = fields.Text('病例簡述')
