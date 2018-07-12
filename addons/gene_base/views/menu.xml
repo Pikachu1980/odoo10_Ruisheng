@@ -4,40 +4,16 @@
 
         <menuitem id="cancer_root" name="癌症報告" sequence="1"/>
         <menuitem id="cancer_categ" name="癌症報告資料" parent="cancer_root" sequence=""/>
-        <menuitem id="sample_base_menu"
-                  name="檢體資料"
-                  parent="cancer_categ"
-                  action="sample_base_action"
-                  sequence="1"/>
         <menuitem id="subject_base_menu"
                   name="受測者資料"
                   parent="cancer_categ"
                   action="subject_base_action"
+                  sequence="1"/>
+        <menuitem id="medicine_data_menu"
+                  name="藥物資料"
+                  parent="cancer_categ"
+                  action="medicine_data_action"
                   sequence="2"/>
-        <!--<menuitem id="sequence_variation_table_menu"-->
-                  <!--name="序列變異綜合表"-->
-                  <!--parent="cancer_categ"-->
-                  <!--action="sequence_variation_table_action"-->
-                  <!--sequence="3"/>-->
-        <!--<menuitem id="gene_impact_menu"-->
-                  <!--name="基因功能評估"-->
-                  <!--parent="cancer_categ"-->
-                  <!--action="gene_impact_action"-->
-                  <!--sequence="4"/>-->
-          <menuitem id="medicine_impact_menu"
-                  name="藥物使用影響評估"
-                  parent="cancer_categ"
-                  action="medicine_impact_action"
-                  sequence="5"/>
-        <menuitem id="gene_menu"
-                  name="查看excel檔"
-                  parent="cancer_categ"
-                  action="gene_base_view_action"
-                  sequence="10"/>
-        <menuitem id="gene_main_menu"
-                  name="基因匯入主檔"
-                  parent="cancer_categ"
-                  action="gene_main_view_action"
-                  sequence="11"/>
+
     </data>
 </odoo>

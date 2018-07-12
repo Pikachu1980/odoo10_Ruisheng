@@ -21,7 +21,7 @@
         'views/sequence_variation_table.xml',
         'views/gene_impact.xml',
         'views/medicine_data.xml',
-        'views/medicine_impact.xml',
+        'views/gene_impact_medicine.xml',
         'views/menu.xml',
     ],
     'demo': [],

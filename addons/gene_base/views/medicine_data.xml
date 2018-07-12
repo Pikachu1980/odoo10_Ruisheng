@@ -6,10 +6,12 @@
             <field name="model">medicine.data</field>
             <field name="arch" type="xml">
                 <tree>
-                    <field name="medic_react"/>
                     <field name="medic_name"/>
-                    <field name="medic_attrs"/>
-                    <field name="treat_target"/>
+                    <field name="pharmacist"/>
+                    <field name="development_phase"/>
+                    <field name="USFDA"/>
+                    <field name="TFDA"/>
+                    <field name="health_insurance_provided"/>
                 </tree>
             </field>
         </record>
@@ -20,11 +22,13 @@
             <field name="arch" type="xml">
                 <form>
                     <sheet>
-                        <group>
-                             <field name="medic_react"/>
-                             <field name="medic_name"/>
-                             <field name="medic_attrs"/>
-                             <field name="treat_target"/>
+                        <group col="6">
+                            <field name="medic_name"/>
+                            <field name="pharmacist"/>
+                            <field name="development_phase"/>
+                            <field name="USFDA"/>
+                            <field name="TFDA"/>
+                            <field name="health_insurance_provided"/>
                         </group>
                     </sheet>
                 </form>

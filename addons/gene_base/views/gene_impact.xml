@@ -6,13 +6,13 @@
             <field name="model">gene.impact</field>
             <field name="arch" type="xml">
                 <tree>
-                    <field name="effect"/>
+                    <field name="category"/>
                     <field name="gene"/>
-                    <field name="sequence_variation"/>
-                    <field name="gene_variation"/>
-                    <field name="variation_percent"/>
-                    <field name="sequence_variation_text"/>
-                    <field name="protein_variation_text"/>
+                    <field name="type"/>
+                    <field name="codingConsequence"/>
+                    <field name="var_percent"/>
+                    <field name="c_DNA"/>
+                    <field name="new_protein"/>
                 </tree>
             </field>
         </record>
@@ -24,13 +24,14 @@
                 <form>
                     <sheet>
                         <group>
-                              <field name="effect"/>
+                              <field name="category"/>
                               <field name="gene"/>
-                              <field name="sequence_variation"/>
-                              <field name="gene_variation"/>
-                              <field name="variation_percent"/>
-                              <field name="sequence_variation_text"/>
-                              <field name="protein_variation_text"/>
+                              <field name="type"/>
+                              <field name="codingConsequence"/>
+                              <field name="var_percent"/>
+                              <field name="c_DNA"/>
+                              <field name="new_protein"/>
+                              <field name="impact_medicine_code"/>
                         </group>
                     </sheet>
                 </form>

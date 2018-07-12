@@ -7,24 +7,24 @@
             <field name="model">gene.base</field>
             <field name="arch" type="xml">
                 <tree string="">
-                    <field name="parent_id"/>
-                    <field name="dbSNP"/>
+                    <!--<field name="parent_id"/>-->
+                    <!--<field name="dbSNP"/>-->
                 </tree>
             </field>
         </record>
 
-        <record id="" model="ir.ui.view">
-            <field name="name"></field>
-            <field name="model"></field>
+        <record id="gene base form" model="ir.ui.view">
+            <field name="name">gene_base_form</field>
+            <field name="model">gene.base</field>
             <field name="arch" type="xml">
                 <form string="">
                     <sheet>
-                        <group>
-                            <field name="name"/>
-                        </group>
-                        <page string="文字一">
+                        <!--<group>-->
+                            <!--<field name="name"/>-->
+                        <!--</group>-->
+                        <!--<page string="文字一">-->
 
-                        </page>
+                        <!--</page>-->
                     </sheet>
                 </form>
             </field>
